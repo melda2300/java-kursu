@@ -1,6 +1,5 @@
 import java.util.Random;
 import java.util.Scanner;
-import java.util.Random;
 
 public class SayıTahmin {
     public static void main(String[] args) {
