@@ -9,7 +9,6 @@ do {
 sayıbasamak/=10;
 basamaksayısı++;
 }while (sayıbasamak>0);
-
         System.out.println("basamak sayısı:"+basamaksayısı);
 
     }
