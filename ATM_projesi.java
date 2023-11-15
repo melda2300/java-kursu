@@ -4,8 +4,6 @@ public class ATM_projesi {
         int bakiye = 1000;
         Scanner scr = new Scanner(System.in);
         System.out.println("merhabalar güncel bakiyeniz:" + bakiye + "TL");
-
-
         while (bakiye > 0) {
             System.out.println("1. para yatır");
             System.out.println("2. para cek");
@@ -13,7 +11,6 @@ public class ATM_projesi {
             System.out.println("4. cıkış yap");
             System.out.print(" yapmak istediğiniz secimi yapınız: ");
             bakiye = scr.nextInt();
-
             if (bakiye == 1) {
                 System.out.print("yatırmak isyediğiniz bakiyeniz:");
                 bakiye = scr.nextInt();
@@ -33,7 +30,6 @@ public class ATM_projesi {
                 break;
             }
         }
-
         System.out.println("tekrar bekleriz");
 
     }
