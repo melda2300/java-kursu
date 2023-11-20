@@ -1,7 +1,5 @@
 import java.util.Scanner;
-import java.util.ArrayList;
-import java.time.LocalDateTime; //sınıfı, zaman ve tarih bilgilerini depolamak için kullanılan temel yapıdır.
-public class Deneme {
+public class kitaplar {
     public static void main(String[] args) {
         Scanner scr = new Scanner(System.in);
         System.out.print("Hoşgeldiniz kitaplara bakmak iistermisiniz:");
