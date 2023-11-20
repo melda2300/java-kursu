@@ -38,15 +38,11 @@ public class kitaplar {
                     System.out.println();
                 }
             }
-
-
         } else if (kitap.equalsIgnoreCase("hayır")) {
             System.out.println("cıkış işlemleri başlatılıyor.....");
 
         } else {
             System.out.println("Geçersiz yanıt!");
-
         }
-
     }
 }
