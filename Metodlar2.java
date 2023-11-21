@@ -1,3 +1,5 @@
+// metot tekrarı
+
 public class Metodlar2 {
     public static void sayılar(){
         System.out.println("bölme "   + 20/10);
