@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class oddandeven {
+public class OddAndEven {
     public static void main(String[] args) {
         int i, se = 0, sod = 0;
         int arr[] = new int[5];
