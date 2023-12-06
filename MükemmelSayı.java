@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MükemmelSayı {
+public class PerfectNumber {
     public static void main(String[] args) {
         Scanner imput = new Scanner(System.in);
         System.out.println("bir sayı giriniz: ");
