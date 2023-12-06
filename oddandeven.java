@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class OddAndEven {
     public static void main(String[] args) {
         int i, se = 0, sod = 0;
-        int arr[] = new int[5];
+        int[] arr= new int[5];
         Scanner sc = new Scanner(System.in);
 
         System.out.print("5 Sayı Girin :");
