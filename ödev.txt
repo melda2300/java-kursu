@@ -1,0 +1,30 @@
+Soru 1: yapıldı
+Verilen bir cümlede kaç adet boşluk karakteri bulunduğunu bulan bir Java programı yazın.
+
+Soru 3: yapıldı
+Kullanıcıdan alınan bir cümlede belirli bir kelimenin kaç kez geçtiğini sayan bir Java programı yazın.
+
+Soru 4: yapıldı
+Bir cümledeki kelimeleri tersten sıralayarak ekrana yazdıran bir Java programı yazın.
+
+Soru 7: yapıldı
+Bir cümledeki tüm kelimelerin ilk harfini büyük harfe dönüştüren bir Java programı yazın.
+
+Soru 8:yapıldı
+Bir cümledeki en uzun kelimeyi bulan bir Java programı yazın.
+
+Soru 9:yapıldı
+Bir cümlede geçen her kelimenin uzunluğunu hesaplayarak, bu uzunlukları ekrana yazdıran bir Java programı yazın.
+
+Soru 5: yapıldı
+Bir kelimenin içindeki tekrar eden harfleri kaldıran bir Java programı yazın. (Örneğin, "programming" kelimesi için "progamin" sonucu alınmalıdır.)
+
+Soru 6: yapıldı
+Kullanıcıdan alınan iki kelimenin anagram olup olmadığını kontrol eden bir Java programı yazın. (Anagramlar, aynı harfleri içeren fakat sıralamaları farklı olan kelimelerdir.)
+
+Soru 10: yapıldı
+Bir kelimenin içindeki sesli harfleri ve sessiz harfleri sayan bir Java programı yazın (Örneğin, "Merhaba" kelimesi için 3 sesli, 4 sessiz harf sonucu alınmalıdır.)
+
+Soru 2:
+Bir kullanıcıdan alınan bir kelimenin palindrom olup olmadığını kontrol eden bir Java programı yazın. (Örneğin, "kayak" kelimesi bir palindromdur.)
+
