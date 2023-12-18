@@ -4,12 +4,12 @@ public class EbobVeEkok {
     public static void main(String[] args) {
          int a, b, i, max, min;
         int Ebob = 1, Ekok = 1;
-        Scanner Klavye = new Scanner(System.in);
+        Scanner sayı = new Scanner(System.in);
         System.out.println("EBOB ve EKOK hesabı");
         System.out.print("İlk değeri giriniz = ");
-        a = Klavye.nextInt();
+        a = sayı.nextInt();
         System.out.print("İkinci değeri giriniz = ");
-        b = Klavye.nextInt();
+        b = sayı.nextInt();
         max = Math.max(a, b);
         min = Math.min(a, b);
         for (i = max; i >= min; i--) {
