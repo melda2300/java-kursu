@@ -2,25 +2,23 @@ import java.util.Scanner;
 
 public class EbobVeEkok {
     public static void main(String[] args) {
-        Scanner sayı = new Scanner(System.in);
-        System.out.print("1. sayıyı giriniz: ");
-        int num1 = sayı.nextInt();
-
-        System.out.println("2. sayıyı giriniz: ");
-        int num2 = sayı.nextInt();
-        int ebob;
-        for (int x= 1;x<=num1;x++){
-            if (num1%x==0&&num2%x==0){
-                System.out.println(x);
-                ebob=1;
+         int a, b, i, max, min;
+        int Ebob = 1, Ekok = 1;
+        Scanner Klavye = new Scanner(System.in);
+        System.out.println("EBOB ve EKOK hesabı");
+        System.out.print("İlk değeri giriniz = ");
+        a = Klavye.nextInt();
+        System.out.print("İkinci değeri giriniz = ");
+        b = Klavye.nextInt();
+        max = Math.max(a, b);
+        min = Math.min(a, b);
+        for (i = max; i >= min; i--) {
+            if ((min % i == 0) && (max % i == 0)) {
+                Ebob = Ebob * i;
             }
+            Ekok = (a * b) / Ebob;
         }
-        for ( int z=num1;z>=1;z--){
-            if (num1%z==0&&num2%z==0){
-                ebob=z;
-                break;
-            }
+        System.out.println("EBOB = " + Ebob );
+        System.out.println("EKOK = " + Ekok );
         }
-
     }
-}
