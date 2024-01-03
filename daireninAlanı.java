@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class daireninAlanı {
     public static void main(String[] args) {
         int r;
@@ -11,6 +10,6 @@ public class daireninAlanı {
         double cevre = 2 * pi * r;
 
         System.out.println("alanı:"+alan);
-        System.out.println("cevresi:"+cevre);
+        System.out.println("cevresi":"+cevre);
     }
 }
